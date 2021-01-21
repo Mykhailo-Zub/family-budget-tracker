@@ -1,0 +1,5 @@
+.wrapper {
+  margin-left: 40px;
+  display: flex;
+  width: calc(100% - 340px);
+}

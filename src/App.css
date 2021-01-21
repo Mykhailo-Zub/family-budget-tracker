@@ -5,14 +5,33 @@
   background-size: cover;
 }
 
-.wrapper-day {
+.main-wrapper {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+}
+
+.background-day {
   background: #0000008e;
+  position: fixed;
   width: 100vw;
   height: 100vh;
 }
 
-.wrapper-night {
+.background-night {
   background: #000000ce;
   width: 100vw;
   height: 100vh;
+}
+
+.disabled {
+  display: none;
+}
+
+.selected {
+  font-size: 55px;
+  font-weight: 800;
+  letter-spacing: 3px;
 }

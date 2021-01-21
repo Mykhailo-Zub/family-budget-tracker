@@ -1,0 +1,24 @@
+.wrapperDay {
+  margin: 20px 0;
+  width: 100%;
+  flex-grow: 3;
+  background-color: var(--main-bg-color-day);
+  box-shadow: var(--main-bg-shadow-day);
+  border-radius: var(--main-border-radius);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.wrapperDay a {
+  margin-top: 25px;
+  font-size: 45px;
+  font-family: "Indie Flower", cursive;
+  color: var(--main-text-day);
+  text-decoration: none;
+}
+
+.wrapperDay a:hover {
+  color: var(--main-text-day-hover);
+}

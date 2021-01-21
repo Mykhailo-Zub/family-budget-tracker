@@ -13,3 +13,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+:root {
+  --main-bg-color-day: #e0effc;
+  --main-bg-shadow-day: 10px 10px 19px 9px rgba(158, 182, 255, 1);
+  --main-border-radius: 10px;
+  --main-text-day: #1f1f1f;
+  --main-text-day-hover: #700000;
+}
