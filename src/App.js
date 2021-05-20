@@ -1,7 +1,11 @@
 import "./App.css";
-import { HashRouter as Router } from "react-router-dom";
-import LeftPanels from "./modules/leftPanels/LeftPanels";
-import TopPanels from "./modules/topPanels/TopPanels";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
+import PrivateRoute from "./components/privateRoute/PrivateRoute";
 
 function App() {
   return (
@@ -9,8 +13,7 @@ function App() {
       <div className="App">
         <div className="background-day">
           <div className="main-wrapper">
-            <LeftPanels />
-            <TopPanels />
+            <PrivateRoute />
           </div>
         </div>
       </div>

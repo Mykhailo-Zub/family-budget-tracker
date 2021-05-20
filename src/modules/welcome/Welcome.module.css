@@ -1,4 +1,4 @@
-.wrapperDay {
+.wrapper {
   margin: 20px 0;
   width: 100%;
   flex-grow: 3;
@@ -11,18 +11,10 @@
   align-items: center;
 }
 
-.wrapperDay a {
+.mainHeader {
   margin-top: 25px;
-  font-size: 45px;
-  font-family: "Indie Flower", cursive;
-  color: var(--main-text-day);
-  text-decoration: none;
 }
 
-.wrapperDay a:last-child {
-  margin-bottom: 25px;
-}
-
-.wrapperDay a:hover {
-  color: var(--main-text-day-hover);
+.secondaryHeader {
+  margin-top: 20px;
 }

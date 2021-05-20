@@ -2,9 +2,9 @@ import React from "react";
 import Logo from "../../components/logoBlock/Logo";
 import NavPanel from "../../components/navPanel/NavPanel";
 import UserGreeting from "../../components/userGreeting/UserGreeting";
-import style from "./LeftPanels.module.css";
+import style from "./LeftPanel.module.css";
 
-const LeftPanels = () => (
+const LeftPanel = () => (
   <div className={style.wrapper}>
     <Logo />
     <UserGreeting />
@@ -12,4 +12,4 @@ const LeftPanels = () => (
   </div>
 );
 
-export default LeftPanels;
+export default LeftPanel;
