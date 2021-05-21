@@ -20,4 +20,7 @@ code {
   --main-border-radius: 10px;
   --main-text-day: #1f1f1f;
   --main-text-day-hover: #700000;
+  --main-button-bg-day: #294962;
+  --main-button-text-day: #cdd7e4;
+  --main-button-border-day: 2px solid #294962;
 }

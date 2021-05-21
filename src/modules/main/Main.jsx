@@ -9,9 +9,6 @@ const Main = () => {
     <div className={style.wrapper}>
       <LeftPanel />
       <TopPanel />
-      <Switch>
-        <Route path="" exact render={() => <Redirect to="/main" />} />
-      </Switch>
     </div>
   );
 };

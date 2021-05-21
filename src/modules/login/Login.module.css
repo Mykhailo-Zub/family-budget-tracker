@@ -1,0 +1,16 @@
+.wrapper {
+  margin: 20px 0;
+  width: 100%;
+  flex-grow: 3;
+  background-color: var(--main-bg-color-day);
+  box-shadow: var(--main-bg-shadow-day);
+  border-radius: var(--main-border-radius);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.mainHeader {
+  margin-top: 25px;
+}

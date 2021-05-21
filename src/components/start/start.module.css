@@ -1,0 +1,57 @@
+.wrapper {
+  margin: 20px 0;
+  width: 100%;
+  flex-grow: 3;
+  background-color: var(--main-bg-color-day);
+  box-shadow: var(--main-bg-shadow-day);
+  border-radius: var(--main-border-radius);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.secondaryHeader {
+  margin-top: 20px;
+}
+
+.loginBtn {
+  border: var(--main-button-border-day);
+  background-color: var(--main-button-bg-day);
+  color: var(--main-button-text-day);
+  font-size: 20px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 50px;
+  max-width: 400px;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.loginBtn:hover {
+  transition: 0.5s;
+  background-color: var(--main-button-text-day);
+  color: var(--main-button-bg-day);
+}
+
+.registerBtn {
+  border: var(--main-button-border-day);
+  background-color: var(--main-button-text-day);
+  color: var(--main-button-bg-day);
+  font-size: 20px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 50px;
+  max-width: 400px;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.registerBtn:hover {
+  transition: 0.5s;
+  background-color: var(--main-button-bg-day);
+  color: var(--main-button-text-day);
+}
